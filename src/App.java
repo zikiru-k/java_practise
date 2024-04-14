@@ -45,5 +45,12 @@ public class App {
 
         int age2 = (int)5.5;
         System.out.println(age2);
+
+        int a2 = 15;
+        int b2 = 20;
+        int m = Math.max(a2, b2);
+        System.out.println("比較実験：" + a2 + "と" + b2 + "で大きい方は…" + m + "です");
+        int n = Math.min(a2, b2);
+        System.out.println("比較実験：" + a2 + "と" + b2 + "で小さい方は…" + n + "です");
     }
 }
