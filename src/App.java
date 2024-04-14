@@ -24,5 +24,10 @@ public class App {
         System.out.println("私の年齢は、" + age + "歳です。");
         age = 35;
         System.out.println("サバを読みました。実は、" + age + "歳です。");
+
+        final double pi = 3.14;
+        int pie = 5;
+        System.out.println("半径" + pie + "cmの体積は、");
+        System.out.println(pie * pie * pi);
     }
 }
