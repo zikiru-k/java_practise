@@ -56,5 +56,13 @@ public class App {
         String Stringage = "20";
         int Stringage2 =Integer.parseInt(Stringage);
         System.out.println((Stringage2 + 1) + "歳です");
+
+        int r = new java.util.Random().nextInt(10);
+        System.out.println("選ばれた数は" + r + "でした");
+
+        String Sinput = new java.util.Scanner(System.in).nextLine();
+        System.out.println(Sinput);
+        int Iinput = new java.util.Scanner(System.in).nextInt();
+        System.out.println(Iinput);
     }
 }
