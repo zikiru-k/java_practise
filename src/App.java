@@ -19,5 +19,10 @@ public class App {
         String name = "すがわら";
         System.out.println(zodiac);
         System.out.println(name);
+
+        int age = 20;
+        System.out.println("私の年齢は、" + age + "歳です。");
+        age = 35;
+        System.out.println("サバを読みました。実は、" + age + "歳です。");
     }
 }
