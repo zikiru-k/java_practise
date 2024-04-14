@@ -37,5 +37,13 @@ public class App {
                         """;
         System.out.println(prof1);
         System.out.println(prof2);
+
+        int a = 10;
+        int b = 10;
+        System.out.println(a++ + 50);
+        System.out.println(++b + 50);
+
+        int age2 = (int)5.5;
+        System.out.println(age2);
     }
 }
