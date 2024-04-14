@@ -52,5 +52,9 @@ public class App {
         System.out.println("比較実験：" + a2 + "と" + b2 + "で大きい方は…" + m + "です");
         int n = Math.min(a2, b2);
         System.out.println("比較実験：" + a2 + "と" + b2 + "で小さい方は…" + n + "です");
+
+        String Stringage = "20";
+        int Stringage2 =Integer.parseInt(Stringage);
+        System.out.println((Stringage2 + 1) + "歳です");
     }
 }
