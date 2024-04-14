@@ -14,5 +14,10 @@ public class App {
 
         float f = 11;
         System.out.println(f);
+
+        char zodiac = '辰';
+        String name = "すがわら";
+        System.out.println(zodiac);
+        System.out.println(name);
     }
 }
