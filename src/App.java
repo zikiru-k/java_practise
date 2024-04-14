@@ -29,5 +29,13 @@ public class App {
         int pie = 5;
         System.out.println("半径" + pie + "cmの体積は、");
         System.out.println(pie * pie * pi);
+
+        String prof1 = "名前：ナマエタロウ\n(なまえたろう)";
+        String prof2 = """
+                        名前：二ホンハナコ
+                        (にほんはなこ)
+                        """;
+        System.out.println(prof1);
+        System.out.println(prof2);
     }
 }
