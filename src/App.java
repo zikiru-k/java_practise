@@ -60,9 +60,52 @@ public class App {
         int r = new java.util.Random().nextInt(10);
         System.out.println("選ばれた数は" + r + "でした");
 
-        String Sinput = new java.util.Scanner(System.in).nextLine();
-        System.out.println(Sinput);
-        int Iinput = new java.util.Scanner(System.in).nextInt();
-        System.out.println(Iinput);
+        // String Sinput = new java.util.Scanner(System.in).nextLine();
+        // System.out.println(Sinput);
+        // int Iinput = new java.util.Scanner(System.in).nextInt();
+        // System.out.println(Iinput);
+
+        boolean tenki = true;
+        if (tenki == true) {
+            System.out.println("洗濯する");
+        } else {
+            System.out.println("洗濯無理");
+        }
+        
+        String str = "すっきり";
+        if(str.equals("すっきり")){
+            System.out.println("同じ");
+        }
+
+        System.out.println("あなたの運勢を占います");
+        int fortune = new java.util.Random().nextInt(4) + 1;
+        if (fortune == 1) {
+          System.out.println("大吉");
+        } else if (fortune == 2) {
+          System.out.println("中吉");
+        } else if (fortune == 3) {
+          System.out.println("吉");
+        } else {
+          System.out.println("凶");
+        }
+
+        System.out.println("あなたの運勢を占います");
+        int fortune2 = new java.util.Random().nextInt(5) + 1;
+        switch (fortune2) {
+          case 1, 2 -> {
+            System.out.println("いいね！");
+          }
+          case 3 -> {
+            System.out.println("普通です");
+          }
+          case 4, 5 -> {
+            System.out.println("うーん...");
+          }
+        }
+
+        for(int q = 0; q <= 5; q++){
+            System.out.println("こんにちは");
+        }
+
     }
 }
