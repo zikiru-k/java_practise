@@ -133,13 +133,9 @@ public class App {
         System.out.println(scores[1]);
 
         int[] seq = new int[10];
-
-        // 塩基配列をランダムに生成
         for (int i = 0; i < seq.length; i++) {
           seq[i] = new java.util.Random().nextInt(4);
         }
-    
-        // 生成した塩基配列の記号を表示
         for (int i = 0; i < seq.length; i++) {
           switch (seq[i]) {
             case 0 -> {
@@ -156,5 +152,16 @@ public class App {
             }
           }
         }
-    }
+
+        int[][] scores2 = {{40, 50, 60}, {80, 60, 70}};
+        System.out.println(scores2.length);
+        System.out.println(scores2[0].length);
+        
+        System.out.println("メソッドを呼び出します");
+        hello();
+        System.out.println("メソッドの呼び出しが終わりました");
+      }
+      public static void hello() {
+        System.out.println("湊さん、こんにちは");
+      }
 }
