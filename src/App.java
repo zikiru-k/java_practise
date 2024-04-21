@@ -163,6 +163,16 @@ public class App {
 
         introduceOneself();
 
+        String title = "メールの宛先アドレス";
+        String address = "メールのタイトル";
+        String text = "メールの本文";
+        email(title, address, text);
+        email(title, text);
+        
+        double triangleArea = calcTriangleArea(10.0, 5.0);
+        System.out.println("三角形の面積：" + triangleArea + "平方cm");
+        double circleArea = calcCircleAria(5.0);
+        System.out.println("円の面積：" + circleArea + "平方cm");
       }
       // public static void hello() {
       //   System.out.println("湊さん、こんにちは");
@@ -177,5 +187,23 @@ public class App {
         System.out.println("歳は" + age + "です");
         System.out.println("身長は" + height + "cmです");
         System.out.println("十二支は" + zodiac + "です");
+      }
+      public static void email(String title, String address, String text){
+        System.out.println(title + "に、以下のメールを送信しました。");
+        System.out.println("件名：" + address);
+        System.out.println("本文：" + text);
+      }
+      public static void email(String title, String text){
+        System.out.println(title + "に、以下のメールを送信しました。");
+        System.out.println("件名：無題");
+        System.out.println("本文：" + text);
+      }
+      public static double calcTriangleArea(double bottom, double height){
+        double area = (bottom * height) / 2;
+        return area;
+      }
+      public static double calcCircleAria(double radius){
+        double area = radius * radius * 3.14;
+        return area;
       }
 }
