@@ -157,9 +157,9 @@ public class App {
         // System.out.println(scores2.length);
         // System.out.println(scores2[0].length);
         
-        // System.out.println("メソッドを呼び出します");
-        // hello();
-        // System.out.println("メソッドの呼び出しが終わりました");
+        System.out.println("メソッドを呼び出します");
+        hello();
+        System.out.println("メソッドの呼び出しが終わりました");
 
         introduceOneself();
 
@@ -174,9 +174,9 @@ public class App {
         double circleArea = calcCircleAria(5.0);
         System.out.println("円の面積：" + circleArea + "平方cm");
       }
-      // public static void hello() {
-      //   System.out.println("湊さん、こんにちは");
-      // }
+      public static void hello() {
+        System.out.println("湊さん、こんにちは");
+      }
 
       public static void introduceOneself(){
         String name = "湊雄輔";
