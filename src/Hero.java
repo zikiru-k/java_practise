@@ -2,10 +2,12 @@ public class Hero {
     String name;
     int hp;
     Sword sword;
+
     public void attack() {
       System.out.println(this.name + "は、" + this.sword.name + "で攻撃した！");
       System.out.println("敵に5ポイントのダメージをあたえた！");
     }
+
     public void sleep() {
       this.hp = 100;
       System.out.println(this.name + "は、眠ってしまった！");
@@ -29,7 +31,13 @@ public class Hero {
       System.out.println("最終HPは、" + this.hp + "でした");
     }
 
-    public Hero() {
+    public Hero(String name) {
         this.hp = 100;    // hpフィールドを100で初期化
+        this.name = name;
+      }
+
+      public Hero() {
+        this.hp = 100;    // hpフィールドを100で初期化
+        this.name = "ダミー";
       }
 }
