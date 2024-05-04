@@ -37,7 +37,8 @@ public class Hero {
       }
 
       public Hero() {
-        this.hp = 100;    // hpフィールドを100で初期化
-        this.name = "ダミー";
+        // this.hp = 100;    // hpフィールドを100で初期化
+        // this.name = "ダミー";
+        this("ダミー");
       }
 }
