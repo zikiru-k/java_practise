@@ -25,6 +25,9 @@ public class Main {
         heal(t);
         System.out.println(baseHp + " : " + t.hp);
 
+        SuperHero sh = new SuperHero();
+        sh.run();
+
         // Sword s = new Sword();
         // s.name = "炎の剣";
         // s.damage = 10;
@@ -36,7 +39,7 @@ public class Main {
         // h.attack();
         // System.out.println("現在の武器は" + h.sword.name);
       }
-      
+
       public static void heal(int hp) {
         hp += 10;
       }
