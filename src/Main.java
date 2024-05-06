@@ -27,6 +27,7 @@ public class Main {
 
         SuperHero sh = new SuperHero();
         sh.run();
+        h1.run();
 
         // Sword s = new Sword();
         // s.name = "炎の剣";
