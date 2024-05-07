@@ -10,6 +10,11 @@ public class Main {
         // h2.name = "アサカ";
         // h2.hp = 100;
 
+        PoisonMatango pm = new PoisonMatango('A');
+        pm.attack(h2);
+
+        Weapon wp = new Weapon();
+
         Wizard w = new Wizard();
         w.name = "スガワラ";
         w.hp = 50;
